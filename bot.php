@@ -6,7 +6,7 @@ use \LINE\LINEBot;
  
 require("phpMQTT.php");
  
-$mqtt = new phpMQTT("https://biynki.herokuapp.com/bot.php", 1883, "phpMQTT Pub Example"); //เปลี่ยน www.yourmqttserver.com ไปที่ mqtt server ที่เราสมัครไว้นะครับ
+$mqtt = new phpMQTT("postman.cloudmqtt.com", 1883, "phpMQTT Pub Example"); //เปลี่ยน www.yourmqttserver.com ไปที่ mqtt server ที่เราสมัครไว้นะครับ
  
 $token = "187XNu4NuZLewXkyjiMfLhHhjum7W89wSxQdTQUJ7eH5qnhOTNqdJko8Of+hvXXUQD3cjQNp1PDfob1joHuZVq79sdcOrHd8sPHTaklk+AQmqRk/k/i9hky61BG25XTb9LCQq2SlZPzET1YUpWgC7AdB04t89/1O/w1cDnyilFU="; //นำ token ที่มาจาก line developer account ของเรามาใส่ครับ
  
